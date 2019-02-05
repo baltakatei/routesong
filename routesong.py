@@ -38,11 +38,12 @@ systemRandom = random.SystemRandom()
 # Define Static global variables
 
 ## Location of metre CSV file.
-METRE_CSV_FILE_LOCATION = "DATA/metre/mother_pollyanna.csv"
+#METRE_CSV_FILE_LOCATION = "DATA/metre/mother_pollyanna.csv"
+METRE_CSV_FILE_LOCATION = "DATA/metre/warp_to_the_dance_floor.csv"
 
 ## Location of graph CSV file.
-#GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
-GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_namedregions.csv"
+GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
+#GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_namedregions.csv"
 #GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_theforge.csv"
 #GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_kimotoro.csv"
 
@@ -375,7 +376,9 @@ for jump in range (0, MAX_JUMPS):
         print("Next random jump Index:",nextRandJumpAdjacentIndex)
         nextRandJumpName = adjacent_systems[nextRandJumpAdjacentIndex]
         print("Next random jump Name :",nextRandJumpName)
-        if nextRandJumpName in solar_system_name:
+        # Calculate index within solar_system_name that contains nextRandJumpName
+        nextRandJumpSolarSystemIndex = solar_system_name.index(nextRandJumpName)
+        if nextRandJumpName in solar_system_name and pron_1_sc[nextRandJumpSolarSystemIndex].isdigit():
             nextRandJumpInvalid = False
             print('Next jump is within loaded solar systems list. Exiting while loop.')
         else:
@@ -383,8 +386,6 @@ for jump in range (0, MAX_JUMPS):
             print('Next jump is not within loaded solar system list. Remaining in while loop to reroll.')
             
     # Identify syllable count for  next jump
-    # Calculate index within solar_system_name that contains nextRandJumpName
-    nextRandJumpSolarSystemIndex = solar_system_name.index(nextRandJumpName)
     #print('solar_system_name list:',solar_system_name)
     #print('pron_1_sc',pron_1_sc)
     #print('current_system_index:',nextRandJumpSolarSystemIndex)
@@ -466,9 +467,16 @@ for jump in range (0, MAX_JUMPS):
         if not route:
             # Start again but from random system
             # Select random system from solar_system_name
-            initialRandSystemIndex = systemRandom.randint(0,len(solar_system_name)-1)
-            initialRandSystemName = solar_system_name[initialRandSystemIndex]
-            initialRandSystemSyllableCount = int(pron_1_sc[initialRandSystemIndex])        
+#            import pdb; pdb.set_trace()
+            initialRandSystemIndexInvalid = True
+            while initialRandSystemIndexInvalid:
+                initialRandSystemIndex = systemRandom.randint(0,len(solar_system_name)-1)
+                initialRandSystemName = solar_system_name[initialRandSystemIndex]
+                if pron_1_sc[initialRandSystemIndex].isdigit():
+                    initialRandSystemIndexInvalid = False
+                    initialRandSystemSyllableCount = int(pron_1_sc[initialRandSystemIndex])        
+                else:
+                    initialRandSystemIndexInvalid = True
             # Reinitialize:
             #   1. route list
             #   2. metre list
