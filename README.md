@@ -14,21 +14,21 @@ The script was written to be executed by Python version 3.5.3.
 
 The script uses the following extra python packages:
 
-- Name: networkx
-  Version: 2.2
-  Summary: Python package for creating and manipulating graphs and networks
-  Home-page: http://networkx.github.io/
-  Author: NetworkX Developers
-  Author-email: networkx-discuss@googlegroups.com
-  License: BSD
+- Name: networkx  
+  Version: 2.2  
+  Summary: Python package for creating and manipulating graphs and networks  
+  Home-page: http://networkx.github.io/  
+  Author: NetworkX Developers  
+  Author-email: networkx-discuss@googlegroups.com  
+  License: BSD  
 
-- Name: matplotlib
-  Version: 3.0.2
-  Summary: Python plotting package
-  Home-page: http://matplotlib.org
-  Author: John D. Hunter, Michael Droettboom
-  Author-email: matplotlib-users@python.org
-  License: BSD
+- Name: matplotlib  
+  Version: 3.0.2  
+  Summary: Python plotting package  
+  Home-page: http://matplotlib.org  
+  Author: John D. Hunter, Michael Droettboom  
+  Author-email: matplotlib-users@python.org  
+  License: BSD  
 
 ## Author
 
