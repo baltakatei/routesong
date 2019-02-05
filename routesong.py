@@ -1,50 +1,81 @@
-#Import csv file (for importing csv files)
-import csv
+# Finds a route through a syllable graph that meets metre constraint.
+# Copyright (C) 2019  Steven Baltakatei Sandoval
+# See LICENSE for details.
 
-#Import networkx (for graphing and plotting)
-import networkx as nx
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see
+# <https://www.gnu.org/licenses/>.
+
+# Import
+
+import csv  # for importing csv files
+import networkx as nx   # for graphing and plotting)
 import matplotlib.pyplot as plt
+import time
 
-#Import random number stuff
+## Import random number stuff
 import os
 clear = lambda: os.system('clear')
 import struct
 import random
 
-
-#Import time
-import time
-
-#Note: insert this command for debug breaking:
+## Debugging
 #       import pdb; pdb.set_trace()
 
-#Initializing random number generator
+# Initialize random number generator
 systemRandom = random.SystemRandom()
 
-#Define Static global variables
+# Define Static global variables
+
+## Location of metre CSV file.
 METRE_CSV_FILE_LOCATION = "DATA/metre/mother_pollyanna.csv"
 
-
+## Location of graph CSV file.
 #GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
 GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_namedregions.csv"
 #GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_theforge.csv"
 #GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations_kimotoro.csv"
 
+## Initial node settings
+### Name of first node (must be in graph).
 INITIAL_NODE = "Jita"
+### Number of syllables of first node (must be in graph)
 INITIAL_NODE_SYLLABLES = 2
-MAX_JUMPS = 1000000
-SHORTLOOP_PENALTY_FACTOR = float(0.30)
-SHORTLOOP_LENGTH = 4
-BACKTRACK_PENALTY_FACTOR = float(0.90)
-NO_JUMP_PENALTY_FACTOR = float(0.90)
-NEW_JUMP_BONUS = float(1.05)
-LONGNAME_BONUS_FACTOR = float(1.05)
-BACKTRACK_THRESHOLD = float(0.10)
+### Initial score to start with.
 FIRST_JUMP_SCORE = float(1.00)
+
+## Route search settings
+### Max number of jump attempts (~)
+MAX_JUMPS = 1000000
+### How much to penalize encountering recently visited nodes.
+SHORTLOOP_PENALTY_FACTOR = float(0.30)
+### Defines how long in the past is "recent"
+SHORTLOOP_LENGTH = 4
+### How much to penalize having to backtrack while searching.
+BACKTRACK_PENALTY_FACTOR = float(0.90)
+### How much to penalize failing a jump forward to a candidate node.
+NO_JUMP_PENALTY_FACTOR = float(0.90)
+### How much to reward selecting a successful jump forward.
+NEW_JUMP_BONUS = float(1.05)
+### How much to reward selecting a node with many syllables.
+LONGNAME_BONUS_FACTOR = float(1.05)
+### Route score below which backtracking is required.
+BACKTRACK_THRESHOLD = float(0.10)
+### Initial score to assign latest entry in route score list.
 NEW_JUMP_SCORE = float(1.00)
 
 
-#Create graph with CSV file info
+# Create graph with CSV file info
 #with open('DATA/system_connections_pronunciations.csv', 'r') as csvfile:
 #with open('DATA/system_connections_pronunciations_namedregions.csv', 'r') as csvfile:
 #with open('DATA/system_connections_pronunciations_theforge.csv', 'r') as csvfile:
