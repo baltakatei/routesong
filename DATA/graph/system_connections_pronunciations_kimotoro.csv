@@ -1,0 +1,8 @@
+Solar System Name,Security Rating,Region,Constellation,Coordinate x,Coordinate z,Coordinate y,Gate 1,Gate 2,Gate 3,Gate 4,Gate 5,Gate 6,Gate 7,Gate 8,Pronunciation 1,Pronunciation 1 Syllable Count,Pronunciation 2,Pronunciation 2 Syllable Count,Pronunciation 3,Pronunciation 3 Syllable Count
+Jita,0.946,The Forge,Kimotoro,-12.9064861734878,6.0755306909964,11.746922706009,Ikuchi,Maurasi,Muvolailen,New Caldari,Niyabainen,Perimeter,Sobaseki,,2,ji-ta,,,,
+Kisogo,1,The Forge,Kimotoro,-13.6079097582848,6.7458193520383,8.9182007574952,Urlen,,,,,,,,3,ki-so-go,,,,
+Maurasi,0.913,The Forge,Kimotoro,-12.5986646920959,5.8522258220589,11.0028861626783,Itamo,Jita,Muvolailen,Perimeter,,,,,3,mau-ra-si,4,ma-u-ra-si,,
+New Caldari,1,The Forge,Kimotoro,-13.6591309420335,6.8606618110891,11.4489542252206,Alikara,Hirtamon,Jita,Josameto,Malkalen,Niyabainen,,,4,nu-kal-da-ri,,,,
+Niyabainen,0.964,The Forge,Kimotoro,-14.4006154015412,6.658220817581,10.790963149708,Jita,New Caldari,Perimeter,Tunttaras,,,,,4,ni-ya-bai-nen,5,ni-ya-ba-i-nen,,
+Perimeter,0.953,The Forge,Kimotoro,-14.3265233088943,6.4923714928939,10.4178623206742,Iyen-Oursta,Jita,Maurasi,Niyabainen,Urlen,,,,4,pe-ri-me-ter,,,,
+Urlen,0.96,The Forge,Kimotoro,-13.9376796022883,7.1476647043998,9.9524016578105,Kisogo,Kusomonmon,Perimeter,Sirppala,Unpas,,,,2,ur-len,,,,
