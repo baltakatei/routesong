@@ -1,0 +1,92 @@
+1111111111
+1111111
+1111111
+1111111111
+1111111
+1111111
+1111111111
+11111111111111
+1111111111
+1111111111111111
+
+:: ::
+
+1 111 111 111
+11 111 11 11 111 11
+
+1 111 111 111
+11 111 11 11 111 11
+
+1111 1111 11
+11 111111 1 111 11
+1111 1111 11
+11 11111 11 111 11 11
+
+:: ::
+
+Metre
+1
+3
+3
+3
+2
+3
+2
+2
+3
+2
+1
+3
+3
+3
+2
+3
+2
+2
+3
+2
+4
+4
+2
+2
+6
+1
+3
+2
+4
+4
+2
+2
+5
+2
+3
+2
+2
+
+
+:: :: ::
+
+45 jumps
+['Aice - 1', 'Jurlesel - 3', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Auberulle - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Blameston - 3', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Grinacanne - 3', 'Erme - 2', 'Botane - 2', 'Ourapheh - 3', 'Yulai - 2', 'Kemerk - 2', 'Arant - 2', 'Villore - 2', 'Erme - 2', 'Du Annes - 2', 'Renyn - 2', 'Algogille - 3', 'Luminaire - 3', 'Mies - 1', 'Oursulaert - 3', 'Pakhshi - 2', 'Tar - 1', 'Tekaima - 3', 'Tarta - 2', 'Zoohen - 2', 'Serren - 2', 'Hadji - 2', 'Agal - 2', 'Heorah - 3', 'Doza - 2', 'Madomi - 3', 'Gergish - 2', 'Kobam - 2']
+
+44 jumps
+['Alles - 1', 'Alillere - 3', 'Abenync - 3', 'Doussivitte - 3', 'Mattere - 2', 'Adreland - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Blameston - 3', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Metserel - 3', 'Erme - 2', 'Botane - 2', 'Ourapheh - 3', 'Yulai - 2', 'Kemerk - 2', 'Arant - 2', 'Villore - 2', 'Erme - 2', 'Du Annes - 2', 'Renyn - 2', 'Algogille - 3', 'Luminaire - 3', 'Mies - 1', 'Oursulaert - 3', 'Renyn - 2', 'Du Annes - 2', 'Erme - 2', 'Botane - 2', 'Aunia - 2', 'Auvergne - 2', 'Vylade - 2', 'Ainaille - 2', 'Caretyn - 3', 'Fricoure - 2', 'Vittenyn - 3', 'Bourynes - 2', 'Aymaerne - 2']
+
+47 jumps
+['Bille - 1', 'Leremblompes - 3', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Auberulle - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Blameston - 3', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Grinacanne - 3', 'Erme - 2', 'Botane - 2', 'Ourapheh - 3', 'Manarq - 2', 'Kemerk - 2', 'Arant - 2', 'Villore - 2', 'Erme - 2', 'Du Annes - 2', 'Pettinck - 2', 'Luminaire - 3', 'Mies - 1', 'Bereye - 2', 'Aice - 1', 'Amattens - 3', 'Uphene - 2', 'Bille - 1', 'Atlanins - 3', 'Vaurent - 2', 'Mosson - 2', 'Azer - 2', 'Cherore - 2', 'Jaschercis - 3', 'Pulin - 2', 'Foves - 1', 'Alles - 1', 'Alillere - 3', 'Bourynes - 2', 'Aymaerne - 2']
+
+44 jumps
+['Bille - 1', 'Leremblompes - 3', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Auberulle - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Marosier - 3', 'Jaschercis - 3', 'Cherore - 2', 'Harerget - 3', 'Claysson - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Dodixie - 3', 'Botane - 2', 'Erme - 2', 'Du Annes - 2', 'Renyn - 2', 'Algogille - 3', 'Luminaire - 3', 'Mies - 1', 'Oursulaert - 3', 'Pakhshi - 2', 'Tar - 1', 'Tekaima - 3', 'Tarta - 2', 'Zoohen - 2', 'Serren - 2', 'Hadji - 2', 'Agal - 2', 'Heorah - 3', 'Doza - 2', 'Madomi - 3', 'Gergish - 2', 'Sibe - 2']
+
+47 jumps
+['Meves - 1', 'Lirsautton - 3', 'Marosier - 3', 'Jaschercis - 3', 'Vaurent - 2', 'Atlanins - 3', 'Azer - 2', 'Cherore - 2', 'Jaschercis - 3', 'Pulin - 2', 'Foves - 1', 'Alles - 1', 'Chelien - 2', 'Mirilene - 3', 'Vittenyn - 3', 'Fricoure - 2', 'Caretyn - 3', 'Ainaille - 2', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Erme - 2', 'Villore - 2', 'Arant - 2', 'Kemerk - 2', 'Yulai - 2', 'Tourier - 2', 'Merolles - 2', 'Tar - 1', 'Pakhshi - 2', 'Oursulaert - 3', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Du Annes - 2', 'Erme - 2', 'Villore - 2', 'Arant - 2', 'Kemerk - 2', 'Yulai - 2', 'Ourapheh - 3', 'Botane - 2', 'Erme - 2', 'Du Annes - 2', 'Balle - 1', 'Aufay - 2', 'Deltole - 2']
+
+45 jumps
+['Aice - 1', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Algogille - 3', 'Renyn - 2', 'Grinacanne - 3', 'Du Annes - 2', 'Pettinck - 2', 'Adreland - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Marosier - 3', 'Jaschercis - 3', 'Cherore - 2', 'Harerget - 3', 'Claysson - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Dodixie - 3', 'Botane - 2', 'Erme - 2', 'Du Annes - 2', 'Pettinck - 2', 'Luminaire - 3', 'Mies - 1', 'Bereye - 2', 'Aice - 1', 'Amattens - 3', 'Uphene - 2', 'Bille - 1', 'Atlanins - 3', 'Azer - 2', 'Cherore - 2', 'Mosson - 2', 'Vaurent - 2', 'Atlanins - 3', 'Azer - 2', 'Cherore - 2', 'Harerget - 3', 'Claysson - 2', 'Stetille - 2']
+
+47 jumps
+['Bille - 1', 'Leremblompes - 3', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Auberulle - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Blameston - 3', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Grinacanne - 3', 'Erme - 2', 'Botane - 2', 'Ourapheh - 3', 'Yulai - 2', 'Kemerk - 2', 'Arant - 2', 'Villore - 2', 'Erme - 2', 'Du Annes - 2', 'Renyn - 2', 'Oursulaert - 3', 'Mies - 1', 'Bereye - 2', 'Aice - 1', 'Amattens - 3', 'Uphene - 2', 'Bille - 1', 'Atlanins - 3', 'Vaurent - 2', 'Mosson - 2', 'Azer - 2', 'Cherore - 2', 'Jaschercis - 3', 'Pulin - 2', 'Foves - 1', 'Alles - 1', 'Alillere - 3', 'Aymaerne - 2', 'Bourynes - 2']
+
+46 jumps
+['Aice - 1', 'Amattens - 3', 'Bereye - 2', 'Mies - 1', 'Luminaire - 3', 'Pettinck - 2', 'Adreland - 3', 'Adiere - 2', 'Stetille - 2', 'Doussivitte - 3', 'Mattere - 2', 'Meves - 1', 'Lirsautton - 3', 'Blameston - 3', 'Vylade - 2', 'Balle - 1', 'Du Annes - 2', 'Grinacanne - 3', 'Erme - 2', 'Botane - 2', 'Ourapheh - 3', 'Manarq - 2', 'Kemerk - 2', 'Arant - 2', 'Villore - 2', 'Erme - 2', 'Du Annes - 2', 'Renyn - 2', 'Algogille - 3', 'Luminaire - 3', 'Mies - 1', 'Oursulaert - 3', 'Pakhshi - 2', 'Renyn - 2', 'Du Annes - 2', 'Erme - 2', 'Villore - 2', 'Arant - 2', 'Kemerk - 2', 'Yulai - 2', 'Ourapheh - 3', 'Manarq - 2', 'Tar - 1', 'Merolles - 2', 'Tourier - 2', 'Channace - 2']
+

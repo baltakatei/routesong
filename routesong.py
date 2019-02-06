@@ -41,6 +41,8 @@ systemRandom = random.SystemRandom()
 #METRE_CSV_FILE_LOCATION = "DATA/metre/mother_pollyanna.csv"
 #METRE_CSV_FILE_LOCATION = "DATA/metre/warp_to_the_dance_floor.csv"
 METRE_CSV_FILE_LOCATION = "DATA/metre/providence_skies.csv"
+#METRE_CSV_FILE_LOCATION = "DATA/metre/dumb_ways_to_die.csv"
+#METRE_CSV_FILE_LOCATION = "DATA/metre/chocobo.csv"
 
 ## Location of graph CSV file.
 GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
