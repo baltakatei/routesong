@@ -1,14 +1,10 @@
 ## Description
 
-`routesong.py` is a python3 script that can generate a route through
-a graph of words with a specified musical metre.
+`routesong.py` is a python3 script that can generate a route through a graph of words with a specified musical metre.
 
-The given word graph and metre are specified using CSV files.  Both
-are hard-coded into the python script within the first 40 lines of
-code.
+The given word graph and metre are specified using CSV files.  Both are hard-coded into the python script within the first 40 lines of code.
 
-An example graph (CCP Games' Eve Online solar systems) is saved in
-`/DATA/graph/`. Example metres are saved in `/DATA/metre/`.
+An example graph (CCP Games' Eve Online solar systems) is saved in `/DATA/graph/`. Example metres are saved in `/DATA/metre/`.
 
 The script was written to be executed by Python version 3.5.3.
 
@@ -29,6 +25,10 @@ The script uses the following extra python packages:
   Author: John D. Hunter, Michael Droettboom  
   Author-email: matplotlib-users@python.org  
   License: BSD  
+
+## Instructions
+
+On Debian 9 with the `python3` package installed, run `$ python3 routesong.py` and make sure the contents of /DATA/ is present. To change which graph or metre is loaded then edit the first 40 lines of the script (inconvenient, yes, but this works for me).
 
 ## Author
 
