@@ -40,9 +40,10 @@ systemRandom = random.SystemRandom()
 ## Location of metre CSV file.
 #METRE_CSV_FILE_LOCATION = "DATA/metre/mother_pollyanna.csv"
 #METRE_CSV_FILE_LOCATION = "DATA/metre/warp_to_the_dance_floor.csv"
-METRE_CSV_FILE_LOCATION = "DATA/metre/providence_skies.csv"
+#METRE_CSV_FILE_LOCATION = "DATA/metre/providence_skies.csv"
 #METRE_CSV_FILE_LOCATION = "DATA/metre/dumb_ways_to_die.csv"
 #METRE_CSV_FILE_LOCATION = "DATA/metre/chocobo.csv"
+METRE_CSV_FILE_LOCATION = "DATA/metre/scratch_metre.csv"
 
 ## Location of graph CSV file.
 GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
@@ -52,9 +53,9 @@ GRAPH_CSV_FILE_LOCATION = "DATA/graph/system_connections_pronunciations.csv"
 
 ## Initial node settings
 ### Name of first node (must be in graph).
-INITIAL_NODE = "Jita"
+INITIAL_NODE = "Djimame"
 ### Number of syllables of first node (must be in graph)
-INITIAL_NODE_SYLLABLES = 2
+INITIAL_NODE_SYLLABLES = 3
 ### Initial score to start with.
 FIRST_JUMP_SCORE = float(1.00)
 
